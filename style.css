@@ -9,11 +9,12 @@
 
 :root {
 
-    --color-header-bottom: #065E7C;
-    --color-footer: #387E96;
-    --colot-p: #121214;
-    --color-h1-h2-h3: #202024;
-    --color-form: #FFFFFF;
+    --hue: 195;
+    --color-header-bottom: hsl(var(--hue), 91%, 25%);
+    --color-footer: hsl(var(--hue), 46%, 40%);
+    --colot-p: hsl(240, 5%, 7%);
+    --color-h1-h2-h3: hsl(240, 6%, 13%);
+    --color-form: hsl(0, 0%, 100%);
 
     font-size: 62.5%;
 }
